@@ -19,3 +19,13 @@ function deger3<T>(x:T):T{
 
 let sayi3 = deger3<number>(2)
 let sehir3 = deger3<string>("izmir")
+
+class GenericClass<T> {
+    degisker:T;
+    fonksiyon(parametre:T):T {
+        return parametre;
+    }
+}
+
+let sinif = new GenericClass<string>();
+sinif.degisker = "merhaba";
