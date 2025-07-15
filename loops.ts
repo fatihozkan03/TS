@@ -1,4 +1,6 @@
-let sehirler = ["Ankara", "İstanbul", "İzmir"];
+export {};
+
+const sehirler = ["Ankara", "İstanbul", "İzmir"];
 
 for (let i in sehirler){
     console.log(i)
