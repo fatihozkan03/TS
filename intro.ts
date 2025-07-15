@@ -42,3 +42,11 @@ let deger2 : void = undefined;
 function selamVer2() : void {
     console.log("Selam");
 }
+
+//undifined - null
+let yas : number;
+yas = 25;
+
+class Musteri{
+    
+}
